@@ -50,6 +50,8 @@ declare module 'material-ui-color' {
     onOpen?: () => void;
     openAtStart?: boolean;
     doPopup?: () => void;
+    hideTextfield?: boolean;
+    disableAlpha?: boolean;
   }
   
   function ColorPicker(
